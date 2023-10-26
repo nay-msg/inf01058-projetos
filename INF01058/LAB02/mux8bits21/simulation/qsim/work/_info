@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aluno\Documents\GitHub\inf01058-projetos\INF01058\LAB02\mux8bits21\simulation\qsim
+vmux8bits21
+Z1 IIXk>zZZefPcfaZ6V9ZF<J1
+Z2 VRLkORO]GOClG2?UGVE:O=0
+Z3 dC:\Users\aluno\Documents\GitHub\inf01058-projetos\INF01058\LAB02\mux8bits21\simulation\qsim
+Z4 w1698332081
+Z5 8mux8bits21.vo
+Z6 Fmux8bits21.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 X4aW[W0dKLXkRjHa_H1k=0
+!s85 0
+Z10 !s108 1698332083.506000
+Z11 !s107 mux8bits21.vo|
+Z12 !s90 -work|work|mux8bits21.vo|
+!s101 -O0
+vmux8bits21_vlg_check_tst
+!i10b 1
+!s100 QDHYGE8_E_0E7aPb<DKHK0
+IiaieY52e26[0aPGbOB;o]3
+VMXfd;e?9TOJ<zkccNaNzh0
+R3
+Z13 w1698332079
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1698332083.677000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vmux8bits21_vlg_sample_tst
+!i10b 1
+!s100 SmRF=4IUdba1za<M[1:I73
+I`=lA>nbfR`ccL0=:CjWX33
+VO]^kbYjfWF1d0]407Tnbz0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vmux8bits21_vlg_vec_tst
+!i10b 1
+!s100 oKCNk:VKOamMBKU><iS[`2
+InM=_0dEWEE;Be1zQgRk451
+Vj5BQ_hSY_ebI_2@HMj>O]0
+R3
+R13
+R14
+R15
+L0 281
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
