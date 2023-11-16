@@ -1,0 +1,404 @@
+$comment
+	File created using the following command:
+		vcd file ula.msim.vcd -direction
+$end
+$date
+	Thu Nov 16 11:55:45 2023
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module ula_vlg_vec_tst $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var reg 2 # op_sel [1:0] $end
+$var wire 1 $ flag_N $end
+$var wire 1 % flag_Z $end
+$var wire 1 & S [3] $end
+$var wire 1 ' S [2] $end
+$var wire 1 ( S [1] $end
+$var wire 1 ) S [0] $end
+$var wire 1 * seg_A $end
+$var wire 1 + seg_B $end
+$var wire 1 , seg_C $end
+$var wire 1 - seg_D $end
+$var wire 1 . seg_E $end
+$var wire 1 / seg_F $end
+$var wire 1 0 seg_G $end
+$var wire 1 1 sampler $end
+$scope module i1 $end
+$var wire 1 2 gnd $end
+$var wire 1 3 vcc $end
+$var wire 1 4 unknown $end
+$var tri1 1 5 devclrn $end
+$var tri1 1 6 devpor $end
+$var tri1 1 7 devoe $end
+$var wire 1 8 flag_N~output_o $end
+$var wire 1 9 S[3]~output_o $end
+$var wire 1 : S[2]~output_o $end
+$var wire 1 ; S[1]~output_o $end
+$var wire 1 < S[0]~output_o $end
+$var wire 1 = flag_Z~output_o $end
+$var wire 1 > seg_A~output_o $end
+$var wire 1 ? seg_B~output_o $end
+$var wire 1 @ seg_C~output_o $end
+$var wire 1 A seg_D~output_o $end
+$var wire 1 B seg_E~output_o $end
+$var wire 1 C seg_F~output_o $end
+$var wire 1 D seg_G~output_o $end
+$var wire 1 E op_sel[0]~input_o $end
+$var wire 1 F B[2]~input_o $end
+$var wire 1 G A[2]~input_o $end
+$var wire 1 H B[1]~input_o $end
+$var wire 1 I A[1]~input_o $end
+$var wire 1 J B[0]~input_o $end
+$var wire 1 K A[0]~input_o $end
+$var wire 1 L inst|inst2|inst4~0_combout $end
+$var wire 1 M inst12|inst3|inst3~2_combout $end
+$var wire 1 N op_sel[1]~input_o $end
+$var wire 1 O A[3]~input_o $end
+$var wire 1 P B[3]~input_o $end
+$var wire 1 Q inst12|inst3|inst3~3_combout $end
+$var wire 1 R inst12|inst3|inst3~4_combout $end
+$var wire 1 S inst12|inst2|inst3~2_combout $end
+$var wire 1 T inst12|inst2|inst3~3_combout $end
+$var wire 1 U inst12|inst1|inst3~1_combout $end
+$var wire 1 V inst12|inst1|inst3~0_combout $end
+$var wire 1 W inst12|inst1|inst3~2_combout $end
+$var wire 1 X inst12|inst|inst3~0_combout $end
+$var wire 1 Y inst13~combout $end
+$var wire 1 Z inst14|inst4~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 !
+b100 "
+b0 #
+x$
+x%
+x)
+x(
+x'
+x&
+0*
+0+
+x,
+0-
+0.
+0/
+00
+x1
+02
+13
+x4
+15
+16
+17
+x8
+x9
+x:
+x;
+x<
+x=
+0>
+0?
+x@
+0A
+0B
+0C
+0D
+0E
+1F
+1G
+0H
+0I
+0J
+0K
+xL
+xM
+0N
+0O
+0P
+xQ
+xR
+xS
+xT
+xU
+xV
+xW
+xX
+xY
+xZ
+$end
+#3113
+1M
+#3241
+0S
+#3245
+0U
+#3440
+0L
+#3441
+0Q
+#3442
+0V
+#3465
+0X
+#3764
+0W
+#3774
+1R
+#4040
+0T
+#4100
+0Y
+#4658
+0Z
+#6362
+0<
+0)
+#6672
+19
+1&
+#6689
+18
+1$
+#6734
+0;
+0(
+#6780
+0=
+0%
+#8259
+0:
+0'
+#9035
+0@
+0,
+#160000
+b1100 !
+b1000 !
+b1100 "
+b1000 "
+01
+#160735
+1O
+1P
+#160886
+0G
+0F
+#163438
+1Q
+#163734
+0R
+#163909
+0Q
+#164099
+1Y
+#164129
+0M
+#164242
+1R
+#164568
+0Y
+#164720
+0R
+#165085
+1Y
+#167638
+09
+0&
+#167662
+08
+0$
+#167786
+1=
+1%
+#300000
+b1010 !
+b1011 !
+b1 #
+b1111 !
+11
+#300725
+1G
+1I
+1K
+#300735
+1E
+#303704
+1Q
+1U
+#304010
+1R
+#304336
+0Y
+#306908
+19
+1&
+#306925
+18
+1$
+#307016
+0=
+0%
+#420000
+b111 !
+b101 !
+b100 !
+b0 !
+01
+#420886
+0G
+0I
+0K
+#420896
+0O
+#424346
+0Q
+#424669
+0R
+#425034
+1Y
+#427587
+09
+0&
+#427611
+08
+0$
+#427735
+1=
+1%
+#560000
+b11 #
+b10 #
+11
+#560775
+1N
+#560896
+0E
+#563804
+1V
+#563808
+1S
+#563921
+1Q
+#563923
+1X
+#564110
+1W
+#564114
+1T
+#564137
+0S
+#564146
+0X
+#564227
+1R
+#564451
+0V
+#564459
+0T
+#564554
+0Y
+#564561
+1Z
+#564773
+0W
+#565077
+0Z
+#567125
+19
+1&
+#567142
+18
+1$
+#567234
+0=
+0%
+#740000
+b1000 !
+b1010 !
+b1011 !
+b1111 !
+01
+#740725
+1G
+1I
+1K
+#740735
+1O
+#743872
+1S
+#743892
+1X
+#743911
+1V
+#744178
+1T
+#744217
+1W
+#744666
+1Z
+#746768
+1<
+1)
+#747152
+1;
+1(
+#748268
+1:
+1'
+#749132
+1@
+1,
+#860000
+b11 #
+11
+#860735
+1E
+#863693
+0S
+#863694
+0Q
+#863699
+0X
+#863999
+0V
+#864015
+0T
+#864017
+0R
+#864321
+0W
+#864801
+1Y
+#864806
+0Z
+#866596
+0<
+0)
+#866935
+09
+0&
+#866959
+08
+0$
+#867291
+0;
+0(
+#867502
+1=
+1%
+#868234
+0:
+0'
+#869183
+0@
+0,
+#1000000
