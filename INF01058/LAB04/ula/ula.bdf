@@ -522,7 +522,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1048 232 1096 264)
+	(rect 1048 112 1096 144)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -648,16 +648,6 @@ applicable agreement for further details.
 	(text "op_sel[1]" (rect 808 144 852 156)(font "Arial" ))
 	(pt 848 160)
 	(pt 800 160)
-)
-(connector
-	(pt 1008 128)
-	(pt 1008 248)
-	(bus)
-)
-(connector
-	(pt 1008 248)
-	(pt 1048 248)
-	(bus)
 )
 (connector
 	(pt 608 208)
@@ -790,18 +780,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "S[3..0]" (rect 989 112 1022 124)(font "Arial" ))
-	(pt 976 128)
-	(pt 1008 128)
-	(bus)
-)
-(connector
-	(text "NotS[3..0]" (rect 1120 224 1170 236)(font "Arial" ))
-	(pt 1176 248)
-	(pt 1096 248)
-	(bus)
-)
-(connector
 	(text "NotS[3]" (rect 1232 208 1269 220)(font "Arial" ))
 	(pt 1264 224)
 	(pt 1224 224)
@@ -836,6 +814,48 @@ applicable agreement for further details.
 	(text "seg_C" (rect 992 432 1023 444)(font "Arial" ))
 	(pt 984 448)
 	(pt 1032 448)
+)
+(connector
+	(text "seg_D" (rect 992 448 1023 460)(font "Arial" ))
+	(pt 984 464)
+	(pt 1032 464)
+)
+(connector
+	(text "seg_F" (rect 992 480 1022 492)(font "Arial" ))
+	(pt 984 496)
+	(pt 1032 496)
+)
+(connector
+	(text "seg_A" (rect 992 400 1023 412)(font "Arial" ))
+	(pt 984 416)
+	(pt 1032 416)
+)
+(connector
+	(text "seg_B" (rect 993 416 1023 428)(font "Arial" ))
+	(pt 984 432)
+	(pt 1032 432)
+)
+(connector
+	(text "seg_E" (rect 992 464 1022 476)(font "Arial" ))
+	(pt 984 480)
+	(pt 1032 480)
+)
+(connector
+	(text "NotS[3..0]" (rect 1120 104 1170 116)(font "Arial" ))
+	(pt 1176 128)
+	(pt 1096 128)
+	(bus)
+)
+(connector
+	(text "S[3..0]" (rect 989 112 1022 124)(font "Arial" ))
+	(pt 976 128)
+	(pt 1048 128)
+	(bus)
+)
+(connector
+	(text "seg_G" (rect 992 496 1023 508)(font "Arial" ))
+	(pt 984 512)
+	(pt 1032 512)
 )
 (junction (pt 296 192))
 (junction (pt 296 80))

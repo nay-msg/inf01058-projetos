@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dC:\Users\aluno\Documents\GitHub\inf01058-projetos\INF01058\LAB03\ula\simulation\qsim
 vula
-Z1 Icd8LkTin6CC_PRG2bjzZ12
-Z2 VJ@jWmjh5jVG49UMKE?5<F0
-Z3 dC:\Users\aluno\Documents\GitHub\inf01058-projetos\INF01058\LAB04\ula\simulation\qsim
-Z4 w1700146542
-Z5 8ula.vo
-Z6 Fula.vo
+Z1 !s100 zdWC>20FH;<DOZ@fihL[l1
+Z2 IWhFZ0>>XL774UbHFKz<C_3
+Z3 VJ@jWmjh5jVG49UMKE?5<F0
+Z4 dC:\Users\Elduris\Downloads\GitHub\inf01058-projetos\INF01058\LAB04\ula\simulation\qsim
+Z5 w1701478318
+Z6 8ula.vo
+Z7 Fula.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -work|work|ula.vo|
-Z9 o-work work -O0
+Z9 !s90 -work|work|ula.vo|
+Z10 o-work work -O0
 !i10b 1
-Z10 !s100 ;kd[3R[ma@cGhA9mbYZb@3
 !s85 0
-Z11 !s108 1700146544.505000
+Z11 !s108 1701478319.168000
 Z12 !s107 ula.vo|
 !s101 -O0
 vula_vlg_check_tst
 !i10b 1
-!s100 DQ]LhBRV7=g1Uz6NVbgRK1
-I]AZEbiooCTA[J`I`[=A;Z3
-Vdjd>O75ABXB]CSccjII9^1
-R3
-Z13 w1700146540
-Z14 8Waveform.vwf.vt
-Z15 FWaveform.vwf.vt
+Z13 !s100 DQ]LhBRV7=g1Uz6NVbgRK1
+Z14 I]AZEbiooCTA[J`I`[=A;Z3
+Z15 Vdjd>O75ABXB]CSccjII9^1
+R4
+Z16 w1701478317
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
 L0 61
-R7
+R8
 r1
 !s85 0
 31
-Z16 !s108 1700146544.662000
-Z17 !s107 Waveform.vwf.vt|
-Z18 !s90 -work|work|Waveform.vwf.vt|
+Z19 !s108 1701478319.234000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0
-R9
+R10
 vula_vlg_sample_tst
 !i10b 1
-Z19 !s100 Me`G<46b;oZO0PZ_MRlU>0
-Z20 I_dFT2Z73N8?U6SL5SiYl02
-Z21 VJ1e7Yo`Sf4T@F7J4[g]No3
-R3
-R13
-R14
-R15
-L0 29
-R7
-r1
-!s85 0
-31
+Z22 !s100 Me`G<46b;oZO0PZ_MRlU>0
+Z23 I_dFT2Z73N8?U6SL5SiYl02
+Z24 VJ1e7Yo`Sf4T@F7J4[g]No3
+R4
 R16
 R17
 R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
 !s101 -O0
-R9
+R10
 vula_vlg_vec_tst
 !i10b 1
-!s100 <>0;0RonWIS1f8PDUd]k>0
-IAA_I^QZJdn>Ekk:@c6Z?M0
-Z22 VBSK`iV7TVbh_f_eCb<4Km2
-R3
-R13
-R14
-R15
-L0 452
-R7
-r1
-!s85 0
-31
+!s100 ]N0eNIEBXIDh]FgYiV>L=3
+IT8ceRV<N<a8SFRR:ASlDN2
+Z25 VBSK`iV7TVbh_f_eCb<4Km2
+R4
 R16
 R17
 R18
+Z26 L0 452
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
 !s101 -O0
-R9
+R10
