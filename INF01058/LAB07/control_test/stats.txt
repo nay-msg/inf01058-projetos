@@ -1,0 +1,4 @@
+Funções combinacionais: 47
+Registradores: 3
+Pinos: 24
+Atraso crítico: 9.928ns
