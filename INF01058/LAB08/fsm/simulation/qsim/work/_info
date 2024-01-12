@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Elduris\AppData\Local\Altera\13.1\quartus\projects\inf01058-projetos\INF01058\LAB08\fsm\simulation\qsim
+vfsm
+Z1 IAeR=cHl^9P`zg7^jCD^7J3
+Z2 VWDkW_M605aA@RN0TZ3hbV2
+Z3 dC:\Users\Elduris\AppData\Local\Altera\13.1\quartus\projects\inf01058-projetos\INF01058\LAB08\fsm\simulation\qsim
+Z4 w1705091224
+Z5 8fsm.vo
+Z6 Ffsm.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|fsm.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 Jeo3kjSiMi4DVYI2R[dJk1
+!s85 0
+Z11 !s108 1705091224.702000
+Z12 !s107 fsm.vo|
+!s101 -O0
+vfsm_vlg_check_tst
+!i10b 1
+!s100 b4RGFkD9;DBi57UmZcf`D2
+Ioga1k`_^T9P^;Q5fNYA:P1
+Vc:1UiELi4jID80W2SQ^XZ1
+R3
+Z13 w1705091223
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1705091224.743000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+vfsm_vlg_sample_tst
+!i10b 1
+Z19 !s100 ?9lPcdV<^GGW>;hU7R_eJ0
+Z20 I6A]LS1RoK`P[SYaWbQ__O0
+Z21 VeA:[N_m^h2L<2oJl;]Q8X2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+vfsm_vlg_vec_tst
+!i10b 1
+!s100 3k;`GNPnAkL=`0?7Li:YN1
+IFGgdo?R?Ta:nhgTIQoa<>3
+Z22 VE4A3:8O6U_?f]kLKTbMLS0
+R3
+R13
+R14
+R15
+L0 208
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
