@@ -1,0 +1,3 @@
+Pinos: 16
+Elementos lógicos: 11
+Atraso crítico: 9.240ns

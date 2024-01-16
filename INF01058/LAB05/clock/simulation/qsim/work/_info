@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aluno\Documents\GitHub\inf01058-projetos\INF01058\LAB05\clock\simulation\qsim
+vclock
+Z1 !s100 X7X37KT^dfd340jlLid8<2
+Z2 IX2FWbC53GWMWcQz;5I7d?3
+Z3 VfkOC0EkBaiX3E5GkHOl[a2
+Z4 dC:\Users\aluno\Documents\GitHub\inf01058-projetos\INF01058\LAB05\clock\simulation\qsim
+Z5 w1701960970
+Z6 8clock.vo
+Z7 Fclock.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|clock.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1701960972.085000
+Z12 !s107 clock.vo|
+!s101 -O0
+vclock_vlg_check_tst
+!i10b 1
+Z13 !s100 e?<mLHkeWd;;Kind^eXOn3
+Z14 I0Q[2`Jekfkh3]`cRK4Hj^1
+Z15 VMb2_9?<Gn9A=BUnNUZHH90
+R4
+Z16 w1701960968
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1701960972.195000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vclock_vlg_sample_tst
+!i10b 1
+Z22 !s100 GI4c1NfBcI[D5P6nTml;Y0
+Z23 IJId<`P3DkMfCV9jJY8nfA3
+Z24 V6D;U3c]`<4L4ie4zaIoMG1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vclock_vlg_vec_tst
+!i10b 1
+Z25 !s100 ;B<;`2;cZAIY<DYA9OzFh3
+Z26 IRYeOjOWz`i0`On>S4UcF83
+Z27 VPUHSf`;a;h`PHV@Iaa=Ii0
+R4
+R16
+R17
+R18
+Z28 L0 154
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

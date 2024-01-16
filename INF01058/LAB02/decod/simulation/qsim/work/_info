@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Elduris\Downloads\GitHub\inf01058-projetos\INF01058\LAB02\decod\simulation\qsim
+vdecod
+Z1 I6Y;96mDfac^Yj?PM8iX7B3
+Z2 VW_<VMV:=6kjbRXUQQ4lga1
+Z3 dC:\Users\Elduris\Downloads\GitHub\inf01058-projetos\INF01058\LAB02\decod\simulation\qsim
+Z4 w1698716138
+Z5 8decod.vo
+Z6 Fdecod.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 7d5nY0mA1^P3cemjdTamP1
+!s85 0
+Z10 !s108 1698716139.749000
+Z11 !s107 decod.vo|
+Z12 !s90 -work|work|decod.vo|
+!s101 -O0
+vdecod_vlg_check_tst
+!i10b 1
+!s100 lgfS@lL>IYGY4A_O@;la31
+Io=WP?KgdBM5VM@VAd;d3;0
+Vc?5KNc<MOLKoDRn@aXaoT1
+R3
+Z13 w1698716136
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1698716139.844000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vdecod_vlg_sample_tst
+!i10b 1
+!s100 ICMn_R<4@Ka81_k6UhiGZ1
+I77DU2l;1IcX@4k00In9<02
+V5z28[lM8f6LJIn3oKAiZL0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vdecod_vlg_vec_tst
+!i10b 1
+!s100 ]Yj=6=@HNR9`z7ZPO>CK41
+I2MeIk;z7]MFXo9NCYlnSi2
+V2ALXGij_Uj8`l4j]Pj^W:0
+R3
+R13
+R14
+R15
+L0 421
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
