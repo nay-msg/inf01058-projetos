@@ -47,8 +47,8 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
-set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
-set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -86,9 +86,8 @@ set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_location_assignment PIN_H2 -to rst
 set_location_assignment PIN_G3 -to step
 set_location_assignment PIN_J6 -to sw
-set_location_assignment PIN_J1 -to N
-set_location_assignment PIN_J2 -to Z
-set_location_assignment PIN_E1 -to HLT
+set_location_assignment PIN_B2 -to N
+set_location_assignment PIN_B1 -to Z
 set_global_assignment -name ASSIGNMENT_GROUP_MEMBER A_0 -section_id seg0
 set_global_assignment -name ASSIGNMENT_GROUP_MEMBER B_0 -section_id seg0
 set_global_assignment -name ASSIGNMENT_GROUP_MEMBER C_0 -section_id seg0
@@ -110,13 +109,6 @@ set_global_assignment -name ASSIGNMENT_GROUP_MEMBER D_2 -section_id seg2
 set_global_assignment -name ASSIGNMENT_GROUP_MEMBER E_2 -section_id seg2
 set_global_assignment -name ASSIGNMENT_GROUP_MEMBER F_2 -section_id seg2
 set_global_assignment -name ASSIGNMENT_GROUP_MEMBER G_2 -section_id seg2
-set_global_assignment -name ASSIGNMENT_GROUP_MEMBER G_3 -section_id seg3
-set_global_assignment -name ASSIGNMENT_GROUP_MEMBER F_3 -section_id seg3
-set_global_assignment -name ASSIGNMENT_GROUP_MEMBER E_3 -section_id seg3
-set_global_assignment -name ASSIGNMENT_GROUP_MEMBER D_3 -section_id seg3
-set_global_assignment -name ASSIGNMENT_GROUP_MEMBER C_3 -section_id seg3
-set_global_assignment -name ASSIGNMENT_GROUP_MEMBER B_3 -section_id seg3
-set_global_assignment -name ASSIGNMENT_GROUP_MEMBER A_3 -section_id seg3
 set_location_assignment PIN_G21 -to clk
 set_location_assignment PIN_E11 -to A_0
 set_location_assignment PIN_F11 -to B_0
@@ -139,11 +131,27 @@ set_location_assignment PIN_E15 -to D_2
 set_location_assignment PIN_A17 -to E_2
 set_location_assignment PIN_B17 -to F_2
 set_location_assignment PIN_F14 -to G_2
-set_location_assignment PIN_B18 -to G_3
-set_location_assignment PIN_F15 -to F_3
-set_location_assignment PIN_A19 -to E_3
+set_location_assignment PIN_G15 -to G_3
+set_location_assignment PIN_D19 -to F_3
+set_location_assignment PIN_C19 -to E_3
 set_location_assignment PIN_B19 -to D_3
-set_location_assignment PIN_C19 -to C_3
-set_location_assignment PIN_D19 -to B_3
-set_location_assignment PIN_G15 -to A_3
+set_location_assignment PIN_A19 -to C_3
+set_location_assignment PIN_F15 -to B_3
+set_location_assignment PIN_B18 -to A_3
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_location_assignment PIN_C2 -to t[7]
+set_location_assignment PIN_C1 -to t[6]
+set_location_assignment PIN_E1 -to t[5]
+set_location_assignment PIN_F2 -to t[4]
+set_location_assignment PIN_H1 -to t[3]
+set_location_assignment PIN_J3 -to t[2]
+set_location_assignment PIN_J2 -to t[1]
+set_location_assignment PIN_J1 -to t[0]
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER A_3 -section_id seg3
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER B_3 -section_id seg3
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER C_3 -section_id seg3
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER D_3 -section_id seg3
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER E_3 -section_id seg3
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER F_3 -section_id seg3
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER G_3 -section_id seg3
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
