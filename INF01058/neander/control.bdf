@@ -215,7 +215,7 @@ applicable agreement for further details.
 	(input)
 	(rect 200 88 368 104)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "NOP" (rect 5 0 29 12)(font "Arial" ))
+	(text "NOP" (rect 5 0 28 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1627,11 +1627,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "t[2]" (rect 1088 96 1104 108)(font "Arial" ))
-	(pt 1112 112)
-	(pt 1080 112)
-)
-(connector
 	(pt 928 128)
 	(pt 896 128)
 )
@@ -2202,6 +2197,11 @@ applicable agreement for further details.
 (connector
 	(pt 912 992)
 	(pt 936 992)
+)
+(connector
+	(text "t[2]" (rect 1088 96 1104 108)(font "Arial" ))
+	(pt 1112 112)
+	(pt 1080 112)
 )
 (junction (pt 720 -48))
 (junction (pt 928 -40))
