@@ -1154,28 +1154,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -16 168 176 248)
-	(text "ROM" (rect 5 0 29 12)(font "Arial" ))
-	(text "inst18" (rect 8 64 37 76)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "entrada[7..0]" (rect 0 0 62 12)(font "Arial" ))
-		(text "entrada[7..0]" (rect 21 27 83 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 192 32)
-		(output)
-		(text "saida[7..0]" (rect 0 0 51 12)(font "Arial" ))
-		(text "saida[7..0]" (rect 128 27 179 39)(font "Arial" ))
-		(line (pt 192 32)(pt 176 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 176 64))
-	)
-)
-(symbol
 	(rect 1720 432 1856 592)
 	(text "BCD_7seg" (rect 5 0 65 14)(font "Arial" (font_size 8)))
 	(text "inst54" (rect 8 144 37 156)(font "Arial" ))
@@ -1770,6 +1748,28 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 112 112))
+	)
+)
+(symbol
+	(rect -16 168 176 248)
+	(text "ROM" (rect 5 0 29 12)(font "Arial" ))
+	(text "inst18" (rect 8 64 37 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "entrada[7..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "entrada[7..0]" (rect 21 27 83 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 192 32)
+		(output)
+		(text "saida[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "saida[7..0]" (rect 128 27 171 39)(font "Arial" ))
+		(line (pt 192 32)(pt 176 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 176 64))
 	)
 )
 (connector
@@ -2391,16 +2391,6 @@ applicable agreement for further details.
 	(pt 872 624)
 )
 (connector
-	(text "inc_PC" (rect 880 384 915 396)(font "Arial" ))
-	(pt 872 416)
-	(pt 928 416)
-)
-(connector
-	(text "carga_RI" (rect 880 400 924 412)(font "Arial" ))
-	(pt 872 400)
-	(pt 928 400)
-)
-(connector
 	(text "t[7..0]" (rect 389 312 418 324)(font "Arial" ))
 	(pt 376 328)
 	(pt 680 328)
@@ -2434,16 +2424,26 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "RI_out[3..0]" (rect 1664 656 1723 668)(font "Arial" ))
+	(text "AC_out[3..0]" (rect 1664 448 1726 460)(font "Arial" ))
+	(pt 1720 464)
+	(pt 1672 464)
+	(bus)
+)
+(connector
+	(text "AC_out[7..4]" (rect 1664 656 1726 668)(font "Arial" ))
 	(pt 1720 672)
 	(pt 1672 672)
 	(bus)
 )
 (connector
-	(text "RDM_out[7..4]" (rect 1664 448 1735 460)(font "Arial" ))
-	(pt 1720 464)
-	(pt 1672 464)
-	(bus)
+	(text "carga_RI" (rect 880 400 924 412)(font "Arial" ))
+	(pt 872 416)
+	(pt 928 416)
+)
+(connector
+	(text "inc_PC" (rect 880 384 915 396)(font "Arial" ))
+	(pt 872 400)
+	(pt 928 400)
 )
 (junction (pt 392 200))
 (junction (pt 680 312))
