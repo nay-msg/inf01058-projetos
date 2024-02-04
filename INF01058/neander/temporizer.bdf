@@ -34,6 +34,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -144 296 -88 312))
 )
 (pin
 	(input)
@@ -50,6 +51,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -144 336 -88 352))
 )
 (pin
 	(input)
@@ -98,6 +100,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1832 264 1888 280))
 )
 (symbol
 	(rect 384 120 448 200)
@@ -504,43 +507,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1200 104 1232 136)
-	(text "GND" (rect 3 6 24 16)(font "Arial" (font_size 6)))
-	(text "inst4" (rect 6 -1 29 11)(font "Arial" )(invisible))
-	(port
-		(pt 16 32)
-		(output)
-		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 9 20 14 32)(font "Courier New" (bold))(invisible))
-		(line (pt 16 24)(pt 16 32))
-	)
-	(drawing
-		(line (pt 24 24)(pt 16 16))
-		(line (pt 16 16)(pt 8 24))
-		(line (pt 24 24)(pt 8 24))
-	)
-	(rotate180)
-)
-(symbol
-	(rect 736 104 768 136)
-	(text "GND" (rect 3 6 24 16)(font "Arial" (font_size 6)))
-	(text "inst7" (rect 6 -1 29 11)(font "Arial" )(invisible))
-	(port
-		(pt 16 32)
-		(output)
-		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 9 20 14 32)(font "Courier New" (bold))(invisible))
-		(line (pt 16 24)(pt 16 32))
-	)
-	(drawing
-		(line (pt 24 24)(pt 16 16))
-		(line (pt 16 16)(pt 8 24))
-		(line (pt 24 24)(pt 8 24))
-	)
-	(rotate180)
-)
-(symbol
-	(rect 224 104 256 136)
+	(rect 224 32 256 64)
 	(text "GND" (rect 3 6 24 16)(font "Arial" (font_size 6)))
 	(text "inst8" (rect 6 -1 29 11)(font "Arial" )(invisible))
 	(port
@@ -751,24 +718,8 @@ applicable agreement for further details.
 	(pt 1440 96)
 )
 (connector
-	(pt 240 136)
-	(pt 240 160)
-)
-(connector
-	(pt 240 160)
-	(pt 264 160)
-)
-(connector
-	(pt 752 136)
-	(pt 752 160)
-)
-(connector
 	(pt 752 160)
 	(pt 776 160)
-)
-(connector
-	(pt 1216 136)
-	(pt 1216 160)
 )
 (connector
 	(pt 1216 160)
@@ -861,6 +812,34 @@ applicable agreement for further details.
 	(pt 1656 256)
 	(bus)
 )
+(connector
+	(pt 264 160)
+	(pt 240 160)
+)
+(connector
+	(pt 240 64)
+	(pt 240 80)
+)
+(connector
+	(pt 240 80)
+	(pt 240 160)
+)
+(connector
+	(pt 1216 80)
+	(pt 1216 160)
+)
+(connector
+	(pt 752 80)
+	(pt 752 160)
+)
+(connector
+	(pt 240 80)
+	(pt 752 80)
+)
+(connector
+	(pt 752 80)
+	(pt 1216 80)
+)
 (junction (pt 464 144))
 (junction (pt 976 144))
 (junction (pt 464 152))
@@ -871,3 +850,5 @@ applicable agreement for further details.
 (junction (pt 888 288))
 (junction (pt 416 328))
 (junction (pt 936 328))
+(junction (pt 240 80))
+(junction (pt 752 80))
